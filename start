@@ -1,0 +1,4 @@
+cd /flask
+gunicorn -c=gunicorn.conf main:app
+nginx -c /flask/nginx.conf
+
